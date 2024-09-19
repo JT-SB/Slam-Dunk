@@ -55,10 +55,36 @@ body {
     text-align: center;
 }
 
+h2{
+    padding-bottom: 15px;
+    color: #ca151d;
+}
+
 #about img{
     max-width: 100%;
     height: auto;
     margin-top: 20px ;
+}
+
+.gallery{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gallery img{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 5px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px #2a2a2a;
+
+}
+
+.gallery img:hover{
+    border-color: #cfa7a9;
+
 }
 
 .footer{
